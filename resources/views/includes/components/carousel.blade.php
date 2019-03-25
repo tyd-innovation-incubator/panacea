@@ -1,68 +1,40 @@
-<section id="featured">
-    <!-- start slider -->
-    <!-- Slider -->
-    <div id="nivo-slider">
-        <div class="nivo-slider">
-            <!-- Slide #1 image -->
-            <img src="img/slides/nivo/bg-1.jpg" alt="" title="#caption-1" />
-            <!-- Slide #2 image -->
-            <img src="img/slides/nivo/bg-2.jpg" alt="" title="#caption-2" />
-            <!-- Slide #3 image -->
-            <img src="img/slides/nivo/bg-3.jpg" alt="" title="#caption-3" />
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="span12">
-                    <!-- Slide #1 caption -->
-                    <div class="nivo-caption" id="caption-1">
-                        <div>
-                            <h2>Awesome <strong>features</strong></h2>
-                            <p>
-                                Lorem ipsum dolor sit amet nsectetuer nec Vivamus. Curabitu laoreet amet eget. Viurab oremd ellentesque ameteget. Lorem ipsum dolor sit amet nsectetuer nec vivamus.
-                            </p>
-                            <a href="#" class="btn btn-theme">Read More</a>
-                        </div>
-                    </div>
-                    <!-- Slide #2 caption -->
-                    <div class="nivo-caption" id="caption-2">
-                        <div>
-                            <h2>Fully <strong>responsive</strong></h2>
-                            <p>
-                                Lorem ipsum dolor sit amet nsectetuer nec Vivamus. Curabitu laoreet amet eget. Viurab oremd ellentesque ameteget. Lorem ipsum dolor sit amet nsectetuer nec vivamus.
-                            </p>
-                            <a href="#" class="btn btn-theme">Read More</a>
-                        </div>
-                    </div>
-                    <!-- Slide #3 caption -->
-                    <div class="nivo-caption" id="caption-3">
-                        <div>
-                            <h2>Very <strong>customizable</strong></h2>
-                            <p>
-                                Lorem ipsum dolor sit amet nsectetuer nec Vivamus. Curabitu laoreet amet eget. Viurab oremd ellentesque ameteget. Lorem ipsum dolor sit amet nsectetuer nec vivamus.
-                            </p>
-                            <a href="#" class="btn btn-theme">Read More</a>
-                        </div>
-                    </div>
+<div class="flexslider left">
+    <ul class="slides">
+        <li>
+            <img src="img/slides/panacea/PIS SLIDE BANNER 4.jpg">
+            <div class="meta">
+                <h1>Get Latest And Trending Information Security News.</h1>
+                <div class="category">
+                    <p>Get Started</p>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- end slider -->
-</section>
-
-<section class="callaction">
-    <div class="container">
-        <div class="row">
-            <div class="span12">
-                <div class="big-cta">
-                    <div class="cta-text">
-                        <h3>We've created more than <span class="highlight"><strong>5000 websites</strong></span> this year!</h3>
-                    </div>
-                    <div class="cta floatright">
-                        <a class="btn btn-large btn-theme btn-rounded" href="#">Request a quote</a>
-                    </div>
+        </li>
+        <li>
+            <img src="img/slides/panacea/PIS SLIDE BANNER 2.jpg">
+            <div class="meta">
+                <h1>For The Information Security Asessment.</h1>
+                <div class="category">
+                    <p>Get Started</p>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
+        </li>
+        <li>
+            <img src="img/slides/panacea/PIS SLIDE BANNER 3.jpg">
+            <div class="meta">
+                <h1>Get Information Security Training and Events.</h1>
+                <div class="category">
+                    <p>Get Started</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <img src="img/slides/panacea/PIS SLIDE BANNER 1.jpg">
+            <div class="meta">
+                <h1>Get Information Security Tools and Softwares.</h1>
+                <div class="category">
+                    <p>Get Started</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>

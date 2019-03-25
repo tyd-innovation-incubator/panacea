@@ -3,20 +3,29 @@
 
 
 @section('content')
-    <!-- start carousel -->
+
+
+
+    {{--Slider section--}}
     @include("includes.components.carousel")
-    <!-- end carousel -->
+
 
     <!-- start about us -->
     {{--@include("includes.home.aboutus")--}}
     {{--<!-- end about us -->--}}
 
     {{--<!-- start Services -->--}}
-    <div class="card">
-        <div class="card-body">
-            @include("service.service")
-        </div>
-    </div>
+
+    @include("includes.components.service")
+
+
+    @include("includes.components.apointment")
+
+    @include("includes.components.news")
+
+    @include('includes.components.brand')
+
+
     {{--<!-- end services -->--}}
 
     {{--<!-- start portifolio -->--}}

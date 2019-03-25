@@ -1,87 +1,82 @@
-<footer>
+<footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="span3">
-                <div class="widget">
-                    <h5 class="widgetheading">Browse pages</h5>
-                    <ul class="link-list">
-                        <li><a href="#">About our company</a></li>
-                        <li><a href="#">Our services</a></li>
-                        <li><a href="#">Meet our team</a></li>
-                        <li><a href="#">Explore our portfolio</a></li>
-                        <li><a href="#">Get in touch with us</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="span3">
-                <div class="widget">
-                    <h5 class="widgetheading">Important stuff</h5>
-                    <ul class="link-list">
-                        <li><a href="#">Press release</a></li>
-                        <li><a href="#">Terms and conditions</a></li>
-                        <li><a href="#">Privacy policy</a></li>
-                        <li><a href="#">Career center</a></li>
-                        <li><a href="#">Flattern forum</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="span3">
-                <div class="widget">
-                    <h5 class="widgetheading">Flickr photostream</h5>
-                    <div class="flickr_badge">
-                        <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>
-                    </div>
-                    <div class="clear">
-                    </div>
-                </div>
-            </div>
-            <div class="span3">
-                <div class="widget">
-                    <h5 class="widgetheading">Get in touch with us</h5>
-                    <address>
-                        <strong>Flattern studio, Pte Ltd</strong><br>
-                        Springville center X264, Park Ave S.01<br>
-                        Semarang 16425 Indonesia
-                    </address>
-                    <p>
-                        <i class="icon-phone"></i> (123) 456-7890 - (123) 555-7891 <br>
-                        <i class="icon-envelope-alt"></i> email@domainname.com
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="sub-footer">
-        <div class="container">
-            <div class="row">
-                <div class="span6">
-                    <div class="copyright">
-                        <p>
-                            <span>&copy; Flattern - All right reserved.</span>
-                        </p>
-                        <div class="credits">
-                            <!--
-                              All the links in the footer should remain intact.
-                              You can delete the links only if you purchased the pro version.
-                              Licensing information: https://bootstrapmade.com/license/
-                              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Flattern
-                            -->
-                            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="span6">
-                    <ul class="social-network">
-                        <li><a href="#" data-placement="bottom" title="Facebook"><i class="icon-facebook icon-square"></i></a></li>
-                        <li><a href="#" data-placement="bottom" title="Twitter"><i class="icon-twitter icon-square"></i></a></li>
-                        <li><a href="#" data-placement="bottom" title="Linkedin"><i class="icon-linkedin icon-square"></i></a></li>
-                        <li><a href="#" data-placement="bottom" title="Pinterest"><i class="icon-pinterest icon-square"></i></a></li>
-                        <li><a href="#" data-placement="bottom" title="Google plus"><i class="icon-google-plus icon-square"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="footer-widget about-widget">
+                    <a href="/" class="footer-logo"><img src="img/PI.png" alt="Awesome Image" style="width: 150px"/></a>
+                    <p>P.O. Box 55132, <br /> Dar es Salaam, Tanzania</p>
+                    <p>Email: info@pis.co.tz</p>
+                    <p>Phone:  +255 713-518549</p>
+                </div><!-- /.footer-widget about-widget -->
+
+            </div><!-- /.col-md-3 -->
+            <div class="col-md-2 col-sm-6">
+                <div class="footer-widget links-widget">
+                    <div class="title">
+                        <div class="line"></div><!-- /.line -->
+                        <h3>Browse</h3>
+                    </div><!-- /.title -->
+                    <ul class="links-list">
+                        <li><i class="fa fa-angle-right"></i> Contact Us</li>
+                        <li><i class="fa fa-angle-right"></i> Testimonial</li>
+                        <li><i class="fa fa-angle-right"></i> Our Work</li>
+                        <li><i class="fa fa-angle-right"></i> Services</li>
+                        <li><i class="fa fa-angle-right"></i> About Us</li>
+                    </ul><!-- /.links-list -->
+                </div><!-- /.footer-widget links-widget -->
+            </div><!-- /.col-md-2 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="footer-widget twitter-widget">
+                    <div class="title">
+                        <div class="line"></div><!-- /.line -->
+                        <h3>Latest Tweets</h3>
+                    </div><!-- /.title -->
+                    <div class="single-twitter">
+                        <p>WordPress 4.9.4 Maintenance Release https://t.co/lOelolfR9O <span>http://fontawesome. io/cheats</span></p>
+                    </div><!-- /.single-twitter -->
+                    <div class="single-twitter">
+                        <p>WordPress 4.9.4 Maintenance Release https://t.co/lOelolfR9O <span>http://fontawesome. io/cheats</span></p>
+                    </div><!-- /.single-twitter -->
+                </div><!-- /.footer-widget twitter-widget -->
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-3 col-sm-6">
+                <div class="footer-widget contact-widget">
+                    <div class="title">
+                        <div class="line"></div><!-- /.line -->
+                        <h3>Contact Us</h3>
+                    </div><!-- /.title -->
+                    <form action="#" class="footer-contact-form">
+                        <input type="text" placeholder="Name*" />
+                        <input type="text" placeholder="Email*" />
+                        <button type="submit" class="thm-btn">Send</button>
+                    </form><!-- /.contact-form -->
+                </div><!-- /.footer-widget links-widget -->
+            </div><!-- /.col-md-3 -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
 </footer>
-</div>
-<a href="#" class="scrollup"><i class="icon-chevron-up icon-square icon-32 active"></i></a>
+
+<div class="footer-bottom text-center">
+    <div class="container">
+        <p>&copy;  Copyrights 2018. Viras All Rights Reserved</p>
+    </div><!-- /.container -->
+</div><!-- /.footer-bottom -->
+
+{{--<!--Scroll to top-->--}}
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-long-arrow-up"></span></div>
+
+{{--<!-- Modal -->--}}
+{{--<div class="modal fade search-form-modal" id="search-form-modal" tabindex="-1" role="dialog" aria-labelledby="search-form-modal">--}}
+    {{--<div class="modal-dialog" role="document">--}}
+        {{--<div class="modal-content">--}}
+            {{--<div class="modal-body">--}}
+                {{--<form action="#" class="popup-search-form">--}}
+                    {{--<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>--}}
+                    {{--<input type="text" placeholder="Enter Your Text Here...." />--}}
+                    {{--<button type="submit" class="fa fa-search"></button>--}}
+                {{--</form>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+{{--</div>--}}
+{{--<!-- /Modal -->--}}
