@@ -18,7 +18,7 @@
                             <div class="line"></div><!-- /.line -->
                             <h2>Panacea <span>Info Sec</span></h2>
                         </div><!-- /.sec-title -->
-                        <p class="special">Pnacea Information Security <span class="highlight">provide a robust synopsis</span> for high level overviews. Iterative approaches to corporate </p>
+                        <p class="special">Panacea Information Security <span class="highlight">provide a robust synopsis</span> for high level overviews. Iterative approaches to corporate </p>
                         <p>strategy foster collaborative thinking to further the overall value the proposition. Organically grow the holistic world view of disruptive innovation via workplace </p>
                         <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud </p>
                     </div><!-- /.about-style-one-content -->

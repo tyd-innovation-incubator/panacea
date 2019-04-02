@@ -26,7 +26,7 @@
                     </li>
 
                     <li>
-                        <a href="services.html">Training</a>
+                        <a href="{!! route('event.index') !!}">Training</a>
                         <ul class="sub-menu ">
                             <li><a href="lock.html">General Awareness</a></li>
                             <li><a href="fingerprint.html">Security Governance</a></li>
@@ -46,7 +46,7 @@
                         <a href="about.html">Tools $ Software</a>
                     </li>
                     <li>
-                        <a href="services.html">Resources</a>
+                        <a href="#">Resources</a>
                         <ul class="sub-menu ">
                             <li><a href="{!! route('resource.contact_us') !!}">Contact Us</a></li>
                             <li><a href="{!! route('resource.about_us') !!}">About Us</a></li>
