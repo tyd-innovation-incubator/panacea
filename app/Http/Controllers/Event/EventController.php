@@ -13,4 +13,9 @@ class EventController extends Controller
     {
         return view('event.index');
     }
+
+    public function show()
+    {
+        return view('event.show');
+    }
 }

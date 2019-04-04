@@ -10,7 +10,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="/">
-                    <img src="img/PI.png" alt="Awesome Image" style="width: 120px;height: 70px"/>
+                    <img src="{!! url('img/PI.png') !!}" alt="Awesome Image" style="width: 120px;height: 70px"/>
                 </a>
             </div>
 
@@ -18,32 +18,29 @@
             <div class="collapse navbar-collapse " id="main-nav-bar">
                 <ul class="nav navbar-nav navigation-box main-navigation mainmenu">
                     <li class="current">
-                        <a href="index.html">Home</a>
-                        <ul class="sub-menu ">
-                            <li><a href="index.html">Home Page One</a></li>
-                            <li><a href="index-2.html">Home Page Two</a></li>
-                        </ul><!-- /.sub-menu -->
+                        <a href="/">Home</a>
                     </li>
 
                     <li>
-                        <a href="{!! route('event.index') !!}">Training</a>
+                        <a href="">Training</a>
                         <ul class="sub-menu ">
-                            <li><a href="lock.html">General Awareness</a></li>
-                            <li><a href="fingerprint.html">Security Governance</a></li>
+                            <li><a href="{!! route('event.index') !!}">Events Calender</a></li>
+                            <li><a href="{!! route('training.general_awareness') !!}">General Awareness</a></li>
+                            <li><a href="{!! route('training.security_governance') !!}">Security Governance</a></li>
 
                         </ul><!-- /.sub-menu -->
                     </li>
                     <li>
-                        <a href="services.html">Service</a>
+                        <a href="#">Service</a>
                         <ul class="sub-menu ">
-                            <li><a href="lock.html">Risk Management</a></li>
-                            <li><a href="fingerprint.html">Security Assessment</a></li>
-                            <li><a href="video.html">Compliance To Standard</a></li>
-                            <li><a href="saftes.html">Compliance To Reguratory</a></li>
+                            <li><a href="{!! route('service.risk_management') !!}">Risk Management</a></li>
+                            <li><a href="{!! route('service.security_assessment') !!}">Security Assessment</a></li>
+                            <li><a href="{!! route('service.compliance_to_standard') !!}">Compliance To Standard</a></li>
+                            <li><a href="{!! route('service.compliance_to_reguratory') !!}">Compliance To Reguratory</a></li>
                         </ul><!-- /.sub-menu -->
                     </li>
                     <li>
-                        <a href="about.html">Tools $ Software</a>
+                        <a href="#">Tools $ Software</a>
                     </li>
                     <li>
                         <a href="#">Resources</a>
@@ -62,14 +59,14 @@
                             {{--<li><a href="404.html">Error Page</a></li>--}}
                         {{--</ul><!-- /.sub-menu -->--}}
                     {{--</li>--}}
-                    <li>
+                <!--     <li>
                         <a href="blog-grid.html">Blog</a>
                         <ul class="sub-menu ">
                             <li><a href="blog-grid.html">Blog Grid</a></li>
                             <li><a href="blog-list.html">Blog List</a></li>
                             <li><a href="blog-details.html">Blog Details</a></li>
-                        </ul><!-- /.sub-menu -->
-                    </li>
+                        </ul>
+                    </li> -->
                     {{--<li>--}}
                         {{--<a href="contact-1.html">Contact</a>--}}
                         {{--<ul class="sub-menu ">--}}
