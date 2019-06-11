@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <div class="footer-widget about-widget">
-                    <a href="/" class="footer-logo"><img src="img/PI.png" alt="Awesome Image" style="width: 150px"/></a>
+                    <a href="/" class="footer-logo"><img src="{!! url('img/PI.png') !!}" alt="Awesome Image" style="width: 150px"/></a>
                     <p>P.O. Box 55132, <br /> Dar es Salaam, Tanzania</p>
                     <p>Email: info@pis.co.tz</p>
                     <p>Phone:  +255 713-518549</p>

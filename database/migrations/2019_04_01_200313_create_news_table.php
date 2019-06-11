@@ -22,6 +22,7 @@ class CreateNewsTable extends Migration
             $table->timestamps();
             $table->softDeletes();
 
+
         });
     }
 
